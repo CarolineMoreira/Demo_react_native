@@ -32,7 +32,7 @@ jobs:
             mkdir -p test-results/jest
             yarn run test
           environment:
-            JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
+            JEST_JUNIT_OUTPUT: test-results/jest/junit1.xml
 
       - persist_to_workspace:
           root: ~/demo-react-native
